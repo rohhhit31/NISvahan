@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <string name="nisvahan">NISvahan</string>
+    <string name="always_in_your_service">Always in your service</string>
+    <string name="home">Home</string>
+    <string name="complaint">Complaint</string>
+    <string name="Complaint">Complaint</string>
+    <string name="services">Services</string>
+    <string name="parkassist">ParkAssist</string>
+    <string name="profile">Profile</string>
+    <string name="Login" >Login</string>
+    <string name="logout" >Logout</string>
+    <string name="share" >Share</string>
+    <string name="RateUs" >RateUs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
