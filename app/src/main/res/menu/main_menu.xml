@@ -7,15 +7,15 @@
             android:title="@string/home" />
         <item
             android:id="@+id/nav_Complaint"
-            android:icon="@drawable/img"
+            android:icon="@drawable/compmenu"
             android:title="@string/Complaint" />
         <item
             android:id="@+id/nav_Services"
-            android:icon="@drawable/img_3"
+            android:icon="@drawable/servicesmenu"
             android:title="@string/services" />
         <item
             android:id="@+id/nav_parkassist"
-            android:icon="@drawable/img_1"
+            android:icon="@drawable/parkmenu"
             android:title="@string/parkassist" />
     </group>
 
@@ -39,7 +39,7 @@
     </item>
 
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"

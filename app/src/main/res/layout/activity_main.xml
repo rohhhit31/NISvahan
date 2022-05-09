@@ -7,10 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    tools:openDrawer="start"
+    >
     <include
         android:id="@+id/aToolbar"
-        layout="@layout/toolbar"></include>
+        layout="@layout/toolbar"
+        ></include>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
