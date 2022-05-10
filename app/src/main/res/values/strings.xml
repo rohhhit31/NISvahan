@@ -8,12 +8,21 @@
     <string name="services">Services</string>
     <string name="parkassist">ParkAssist</string>
     <string name="profile">Profile</string>
-    <string name="Login" >Login</string>
-    <string name="logout" >Logout</string>
-    <string name="share" >Share</string>
-    <string name="RateUs" >RateUs</string>
+    <string name="Login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share</string>
+    <string name="RateUs">RateUs</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="communicate">Communicate</string>
+    <string name="buysell">Buy/Sell</string>
+    <string name="helpline">Helpline</string>
+    <string name="rules">Rules</string>
+    <string name="cars_can_only_be_imported_to_india_from_any_country_the_speedometer_must_display_km_h_in_india_as_per_the_metric_system_the_imported_car_must_only_be_right_hand_drive_the_vehicle_must_not_have_been_previously_used_or_leased_in_any_other_country_before_it_s_imported_to_india_it_cannot_be_registered_in_any_country_other_than_india_before_importation_the_vehicle_must_not_be_older_than_three_years_the_motor_vehicle_must_be_in_compliance_with_the_motor_vehicle_act_of_1988_dealers_and_importers_must_submit_a_certificate_from_a_vehicle_testing_agency_where_the_imported_vehicle_has_been_tested_the_import_duties_depend_on_the_vehicle_s_category_engine_capacity_and_other_such_factors_rto_will_only_register_your_vehicle_after_the_completion_of_all_the_rules_initially_you_will_be_given_a_temporary_registration_number_and_after_7_days_a_permanent_number_can_be_applied_for">Cars can only be imported to India from any country. The speedometer must display km/h in India as per the metric system. The imported car must only be right-hand-drive. The vehicle must not have been previously used or leased in any other country before it’s imported to India. It cannot be registered in any country other than India before importation. The vehicle must not be older than three years. The motor vehicle must be in compliance with the Motor Vehicle Act of 1988. Dealers and importers must submit a certificate from a vehicle testing agency where the imported vehicle has been tested. The import duties depend on the vehicle’s category, engine capacity and other such factors. RTO will only register your vehicle after the completion of all the rules Initially, you will be given a temporary registration number and after 7 days, a permanent number can be applied for.</string>
+    <string name="guidelines">GUIDELINES</string>
+    <string name="trading_portal_for_everyone">Trading portal for everyone</string>
+    <string name="portal_for_everyone">Portal_for_everyone</string>
+
+    <string name="pick_a_service">Pick a Service!</string>
 
 </resources>

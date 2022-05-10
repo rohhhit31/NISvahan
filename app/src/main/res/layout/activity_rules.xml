@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:text="@string/guidelines"
+                android:textColor="#FF1D1D"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="710dp"
+                android:text="@string/cars_can_only_be_imported_to_india_from_any_country_the_speedometer_must_display_km_h_in_india_as_per_the_metric_system_the_imported_car_must_only_be_right_hand_drive_the_vehicle_must_not_have_been_previously_used_or_leased_in_any_other_country_before_it_s_imported_to_india_it_cannot_be_registered_in_any_country_other_than_india_before_importation_the_vehicle_must_not_be_older_than_three_years_the_motor_vehicle_must_be_in_compliance_with_the_motor_vehicle_act_of_1988_dealers_and_importers_must_submit_a_certificate_from_a_vehicle_testing_agency_where_the_imported_vehicle_has_been_tested_the_import_duties_depend_on_the_vehicle_s_category_engine_capacity_and_other_such_factors_rto_will_only_register_your_vehicle_after_the_completion_of_all_the_rules_initially_you_will_be_given_a_temporary_registration_number_and_after_7_days_a_permanent_number_can_be_applied_for" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

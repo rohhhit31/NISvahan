@@ -17,6 +17,18 @@
             android:id="@+id/nav_parkassist"
             android:icon="@drawable/parkmenu"
             android:title="@string/parkassist" />
+        <item
+            android:id="@+id/nav_buysell"
+            android:icon="@drawable/buysell"
+            android:title="@string/buysell" />
+        <item
+            android:id="@+id/nav_helpline"
+            android:icon="@drawable/helpline"
+            android:title="@string/helpline" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/rules"
+            android:title="@string/rules" />
     </group>
 
     <item android:title="@string/profile">

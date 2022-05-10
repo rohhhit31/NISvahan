@@ -147,6 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/ParkAssist"
+                    android:layout_centerInParent="false"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="monospace"
@@ -264,7 +265,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="monospace"
-                    android:text="Buy/Sell"
+                    android:text="Helpline"
                     android:textSize="16sp" />
 
                 <ImageView
@@ -305,7 +306,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="monospace"
-                    android:text="Services"
+                    android:text="Rules"
                     android:textSize="16sp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>

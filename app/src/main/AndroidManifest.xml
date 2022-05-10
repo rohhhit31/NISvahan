@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dashboard">
-
+<uses-permission android:name="android.permission.CALL_PHONE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dashboard">
+        <activity
+            android:name=".Rules"
+            android:exported="false" />
+        <activity
+            android:name=".Helpline"
+            android:exported="false" />
+        <activity
+            android:name=".Buysell"
+            android:exported="false" />
+        <activity
+            android:name=".Parkassist"
+            android:exported="false" />
+        <activity
+            android:name=".Services"
+            android:exported="false" />
+        <activity
+            android:name=".Complaint"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
