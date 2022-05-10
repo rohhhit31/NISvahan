@@ -22,7 +22,10 @@ public class Splashscreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //to remove the status bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_splashscreen);
 
         topAnim= AnimationUtils.loadAnimation(this, R.anim.top_animation);
@@ -44,6 +47,7 @@ logo =(TextView) findViewById(R.id.textView7);
                 Intent intent0= new Intent(Splashscreen.this,MainActivity.class);
                 startActivity(intent0);
                 finish();
+
             }
         },SPLASH_SCREEN);
     }

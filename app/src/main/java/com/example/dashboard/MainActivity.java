@@ -109,6 +109,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent6);
                 break;
 
+            case R.id.nav_login:
+                Intent intent7 =new Intent (MainActivity.this,Login.class);
+                startActivity(intent7);
+                break;
      }
      //close drawer menu when option selected.  When an option is selected it will closes the home screen
      drawerLayout.closeDrawer(GravityCompat.START);
