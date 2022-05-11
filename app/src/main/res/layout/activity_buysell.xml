@@ -84,6 +84,7 @@
                 android:layout_height="175dp"
                 android:orientation="horizontal"
                 android:padding="10dp"
+                android:background="#A16553"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +96,8 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     app:cardElevation="5dp"
-                    app:cardMaxElevation="5dp">
+                    app:cardMaxElevation="5dp"
+                    >
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -163,6 +165,7 @@
                 android:layout_height="175dp"
                 android:orientation="horizontal"
                 android:padding="10dp"
+                android:background="#A16553"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -240,6 +243,7 @@
                 android:layout_height="175dp"
                 android:orientation="horizontal"
                 android:padding="10dp"
+                android:background="#A16553"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"

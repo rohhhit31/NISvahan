@@ -23,15 +23,18 @@
         android:layout_gravity="start"/>
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:background="#A16553">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#A16553">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +43,7 @@
         app:navigationIcon="@drawable/menu" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/ctTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -61,7 +64,7 @@
         android:text="@string/always_in_your_service"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/ctTextView" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -84,6 +87,7 @@
         android:layout_height="175dp"
         android:orientation="horizontal"
         android:padding="10dp"
+        android:background="#A16553"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,6 +95,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
+            android:id="@+id/cardview1"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
@@ -102,7 +107,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/ctTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/Complaint"
@@ -163,6 +168,7 @@
         android:layout_height="175dp"
         android:orientation="horizontal"
         android:padding="10dp"
+        android:background="#A16553"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -240,6 +246,7 @@
         android:layout_height="175dp"
         android:orientation="horizontal"
         android:padding="10dp"
+        android:background="#A16553"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -261,7 +268,7 @@
                     android:id="@+id/Helpline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/Helpline"
+                    android:layout_below="@id/Helpline1"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="monospace"
@@ -269,7 +276,7 @@
                     android:textSize="16sp" />
 
                 <ImageView
-                    android:id="@+id/Helpline"
+                    android:id="@+id/Helpline1"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
