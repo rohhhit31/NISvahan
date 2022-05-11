@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".Complaint">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="409dp"
+        android:background="@drawable/bg_button"
+        android:drawableRight="@drawable/ic_search"
+        android:ems="10"
+        android:hint="UP 16 CM 1280"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="319dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="106dp"
+        android:fontFamily="monospace"
+        android:text="ENTER VEHICLE NUMBER"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
