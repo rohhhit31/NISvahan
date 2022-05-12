@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //                break;
 
             case R.id.nav_login:
-                Intent intent7 = new Intent(MainActivity.this, Login.class);
+                Intent intent7 = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent7);
                 break;
 

@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dashboard">
         <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".Thank"
             android:exported="false" />
 
@@ -22,12 +28,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
 
-        <activity
-            android:name=".signup"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
