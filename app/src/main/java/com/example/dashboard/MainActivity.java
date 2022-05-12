@@ -7,6 +7,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -78,11 +79,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent9);
             }
         });
+//        Rules.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent9 = new Intent(MainActivity.this, Rules.class);
+//                startActivity(intent9);
+//            }
         Rules.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                Intent intent9 = new Intent(MainActivity.this, Rules.class);
-                startActivity(intent9);
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://parivahan.gov.in/parivahan/en/content/act-rules-and-policies"));
+                startActivity(intent);
             }
         });
 
@@ -160,17 +169,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent5);
                 break;
 
-            //Rules connection
-            case R.id.nav_rules:
-                Intent intent6 = new Intent(MainActivity.this, Rules.class);
-                startActivity(intent6);
-                break;
+//            //Rules connection
+//            case R.id.nav_rules:
+//                Intent intent6 = new Intent(MainActivity.this, Rules.class);
+//                startActivity(intent6);
+//                break;
 
             case R.id.nav_login:
                 Intent intent7 = new Intent(MainActivity.this, Login.class);
                 startActivity(intent7);
                 break;
+
+            case R.id.nav_share:
+            case R.id.nav_rate:
+                Intent intent8 = new Intent(MainActivity.this, Thank.class);
+                startActivity(intent8);
+                break;
+
+
         }
+
         //close drawer menu when option selected.  When an option is selected it will closes the home screen
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
