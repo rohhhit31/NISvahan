@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivity extends AppCompatActivity {
 EditText emailET,passwordET;
 TextView editTxt2;
-Button loginBtn;
+Button loginBtn ,newuserBtn;
 
     FirebaseAuth auth;
 
@@ -34,7 +34,7 @@ Button loginBtn;
         passwordET = findViewById(R.id.passwordET);
         editTxt2 = findViewById(R.id.editTxt2);
         loginBtn = findViewById(R.id.loginBtn);
-
+//        newuserBtn= findViewById(R.id.newuserBtn);
         auth = FirebaseAuth.getInstance();
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +64,13 @@ Button loginBtn;
                 startActivity(intent);
             }
         });
+//        newuserBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
     }

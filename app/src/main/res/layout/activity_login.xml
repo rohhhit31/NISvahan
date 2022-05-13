@@ -6,7 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/emailET"
         android:layout_width="match_parent"
@@ -37,6 +43,20 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/emailET"
         app:layout_constraintTop_toBottomOf="@+id/emailET" />
+
+<!--    <Button-->
+<!--        android:id="@+id/newuserBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:text="SIGNUP"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/editTxt2"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/passwordET"-->
+<!--        app:layout_constraintStart_toStartOf="@id/passwordET"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/passwordET"-->
+<!--        app:layout_constraintVertical_bias="0.206" />-->
 
     <Button
         android:id="@+id/loginBtn"
@@ -72,7 +92,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginBottom="24dp"
         android:text="Register Here"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/editTxt1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,5 +100,6 @@
         app:layout_constraintStart_toEndOf="@+id/editTxt1"
         app:layout_constraintTop_toTopOf="@id/editTxt1"
         app:layout_constraintVertical_bias="0.111" />
-
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
