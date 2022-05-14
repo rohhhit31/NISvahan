@@ -7,7 +7,7 @@
     tools:context=".Complaint">
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/NumberPlate"
         android:layout_width="239dp"
         android:layout_height="0dp"
         android:layout_marginEnd="76dp"
@@ -35,7 +35,21 @@
         android:text="ENTER VEHICLE NUMBER"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/NumberPlate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="409dp"
+        android:layout_height="407dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NumberPlate" />
 </androidx.constraintlayout.widget.ConstraintLayout>
