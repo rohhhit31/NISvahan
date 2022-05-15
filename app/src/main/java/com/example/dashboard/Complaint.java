@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class Complaint extends AppCompatActivity {
 
 
-    private ListView listView;
+//    private ListView listView;
 
     @Override
 
@@ -29,29 +29,29 @@ public class Complaint extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complaint);
 
-        listView=findViewById(R.id.listView);
-        ArrayList<String> list= new ArrayList<>();
-        ArrayAdapter adapter= new ArrayAdapter<String>(this,R.layout.activity_complaint,list);
-        listView.setAdapter(adapter);
-
-        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("ONWERSHIP");
-        reference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                list.clear();
-                for(DataSnapshot snapshot: dataSnapshot.getChildren()){
-                    Information info = snapshot.getValue(Information.class);
-                    String txt =info.getColour() + ":" + info.getOwner() + ":" + info.getRegistered() + ":" + info.getResident() + ":" + info.getType() + ":" +info.getVehicle();
-                            list.add(txt);
-                }
-                adapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
+//        listView=findViewById(R.id.listview);
+//        ArrayList<String> list= new ArrayList<>();
+//        ArrayAdapter adapter= new ArrayAdapter<String>(this,R.layout.activity_complaint,list);
+//        listView.setAdapter(adapter);
+//
+//        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("ONWERSHIP");
+//        reference.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                list.clear();
+//                for(DataSnapshot snapshot: dataSnapshot.getChildren()){
+//                    Information info = snapshot.getValue(Information.class);
+//                    String txt =info.getColour() + ":" + info.getOwner() + ":" + info.getRegistered() + ":" + info.getResident() + ":" + info.getType() + ":" +info.getVehicle();
+//                            list.add(txt);
+//                }
+//                adapter.notifyDataSetChanged();
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
 
     }
 

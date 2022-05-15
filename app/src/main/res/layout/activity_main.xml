@@ -24,11 +24,11 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#A16553">
+        android:background="#FFFFFF">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A16553">
+    android:background="#FFFFFF">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
 
@@ -87,7 +87,7 @@
         android:layout_height="175dp"
         android:orientation="horizontal"
         android:padding="10dp"
-        android:background="#A16553"
+        android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -168,7 +168,7 @@
         android:layout_height="175dp"
         android:orientation="horizontal"
         android:padding="10dp"
-        android:background="#A16553"
+        android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -246,7 +246,7 @@
         android:layout_height="175dp"
         android:orientation="horizontal"
         android:padding="10dp"
-        android:background="#A16553"
+        android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
