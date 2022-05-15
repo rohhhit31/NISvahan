@@ -22,7 +22,7 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Thank"
+            android:name=".comingsoon"
             android:exported="false" />
 
         <meta-data

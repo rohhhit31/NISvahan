@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Android/Dashboard/app/src/main/res/drawable/bg_button.xml" value="0.2265" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/drawable/bg_round.xml" value="0.2265" />
+        <entry key="..\:/Android/Dashboard/app/src/main/res/drawable/btn_gradient.xml" value="0.2475" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/drawable/home.xml" value="0.2265" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/drawable/ic_call.xml" value="0.2265" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/drawable/menu.xml" value="0.2265" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/layout/activity_buysell.xml" value="0.264" />
+        <entry key="..\:/Android/Dashboard/app/src/main/res/layout/activity_comingsoon.xml" value="0.176" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/layout/activity_complaint.xml" value="0.2" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/layout/activity_helpline.xml" value="0.22760416666666666" />
         <entry key="..\:/Android/Dashboard/app/src/main/res/layout/activity_login.xml" value="0.2" />

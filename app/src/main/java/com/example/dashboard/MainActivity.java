@@ -14,8 +14,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.widget.Toolbar;
 
@@ -182,7 +180,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.nav_share:
             case R.id.nav_rate:
-                Intent intent8 = new Intent(MainActivity.this, Thank.class);
+                Intent intent8 = new Intent(MainActivity.this, comingsoon.class);
                 startActivity(intent8);
                 break;
 

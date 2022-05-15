@@ -265,7 +265,7 @@
                             android:id="@+id/Auto"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@id/Auto"
+                            android:layout_below="@id/Auto1"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
                             android:fontFamily="monospace"
@@ -273,7 +273,7 @@
                             android:textSize="16sp" />
 
                         <ImageView
-                            android:id="@+id/Auto"
+                            android:id="@+id/Auto1"
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:layout_centerHorizontal="true"
