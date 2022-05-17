@@ -59,7 +59,7 @@ public class Complaint extends AppCompatActivity {
                             database.getReference().child("Complaint").child(id).setValue(user);
                             Intent intent = new Intent(Complaint.this,MainActivity.class);
                             startActivity(intent);
-                            Toast.makeText(Complaint.this, "Complaint Registered", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Complaint.this, "Complaint Registered , will get back to you soon", Toast.LENGTH_SHORT).show();
                         }
                         else{
                             Toast.makeText(Complaint.this, "Error while registering", Toast.LENGTH_SHORT).show();

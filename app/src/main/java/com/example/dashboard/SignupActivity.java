@@ -61,7 +61,7 @@ public class SignupActivity extends AppCompatActivity {
                             Toast.makeText(SignupActivity.this, "User Data Saved", Toast.LENGTH_SHORT).show();
                         }
                         else{
-                            Toast.makeText(SignupActivity.this, "Error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignupActivity.this, "Error while saving", Toast.LENGTH_LONG).show();
                         }
                     }
                 });
