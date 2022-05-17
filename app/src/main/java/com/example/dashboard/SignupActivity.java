@@ -53,7 +53,7 @@ public class SignupActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            User user = new User(nameET.getText().toString(),userNameET.getText().toString(),email,phoneET.getText().toString(),password);
+                            User user= new User(nameET.getText().toString(),userNameET.getText().toString(),email,phoneET.getText().toString(),password);
                             String id = task.getResult().getUser().getUid();
                             database.getReference().child("Users").child(id).setValue(user);
                             Intent intent = new Intent(SignupActivity.this,MainActivity.class);

@@ -24,6 +24,7 @@ public class Complaint extends AppCompatActivity {
     Button registerBtn;
 
     FirebaseAuth auth;
+
     FirebaseDatabase database;
 
 
